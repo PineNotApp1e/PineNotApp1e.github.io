@@ -2,6 +2,17 @@
 const son = new Audio("meeeh.mp3");
 const chevre = document.getElementById("goat");
 let activerson=true;
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then((registration) => {
+        console.log('Service Worker enregistré avec succès, scope :', registration.scope);
+      })
+      .catch((error) => {
+        console.log('Échec de l\'enregistrement du Service Worker :', error);
+      });
+  });
+}
 // Quand on clique sur l'image de la chèvre elle fait le son et l'animation
 function lancer()
 {
