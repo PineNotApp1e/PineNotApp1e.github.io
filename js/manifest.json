@@ -1,0 +1,19 @@
+{
+  "name": "Goat Box",
+  "short_name": "Goat Box",
+  "description": "Une description courte et claire de ce que fait ton application progressive web.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3f51b5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/goat.png",
+      "sizes": "400x400",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

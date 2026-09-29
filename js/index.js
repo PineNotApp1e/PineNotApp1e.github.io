@@ -19,6 +19,17 @@
 
 // Wait for the deviceready event before using any of Cordova's device APIs.
 // See https://cordova.apache.org/docs/en/latest/cordova/events/events.html#deviceready
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then((registration) => {
+        console.log('Service Worker enregistré avec succès, scope :', registration.scope);
+      })
+      .catch((error) => {
+        console.log('Échec de l\'enregistrement du Service Worker :', error);
+      });
+  });
+}
 document.addEventListener('deviceready', onDeviceReady, false);
 
 function onDeviceReady() {
