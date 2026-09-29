@@ -2,13 +2,12 @@ const CACHE_NAME = 'goat-box-v1';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
-  '/style.css',      // Corrigé (style.css au lieu de styles.css)
-  '/monscript.js',   // Corrigé (monscript.js au lieu de app.js)
+  '/style.css',
+  '/monscript.js',
   '/manifest.json',
-  '/goat.jpg',       // Ton icône de manifest
-  '/goat.jpg',       // Image par défaut de la chèvre
-  '/goat_meh.jpg',   // Image de la chèvre qui crie
-  '/meeh.mp3'        // Son de la chèvre
+  '/goat.jpg',       // <-- Bien en .jpg ici aussi
+  '/goat_meh.jpg',
+  '/meeh.mp3'
 ];
 
 // 1. Installation : mise en cache des fichiers statiques
