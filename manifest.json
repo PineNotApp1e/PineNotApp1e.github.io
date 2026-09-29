@@ -1,7 +1,7 @@
 {
   "name": "Goat Box",
   "short_name": "Goat Box",
-  "description": "Une description courte et claire de ce que fait ton application progressive web.",
+  "description": "La meilleure application de chèvre interactive.",
   "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",
@@ -11,7 +11,13 @@
   "icons": [
     {
       "src": "/goat.png",
-      "sizes": "400x400",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/goat.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
