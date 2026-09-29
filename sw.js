@@ -5,7 +5,7 @@ const ASSETS_TO_CACHE = [
   '/style.css',      // Corrigé (style.css au lieu de styles.css)
   '/monscript.js',   // Corrigé (monscript.js au lieu de app.js)
   '/manifest.json',
-  '/goat.png',       // Ton icône de manifest
+  '/goat.jpg',       // Ton icône de manifest
   '/goat.jpg',       // Image par défaut de la chèvre
   '/goat_meh.jpg',   // Image de la chèvre qui crie
   '/meeh.mp3'        // Son de la chèvre
