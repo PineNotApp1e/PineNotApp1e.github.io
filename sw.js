@@ -1,11 +1,14 @@
-const CACHE_NAME = 'mon-app-v1';
+const CACHE_NAME = 'goat-box-v1';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
-  '/styles.css',
-  '/app.js',
+  '/style.css',      // Corrigé (style.css au lieu de styles.css)
+  '/monscript.js',   // Corrigé (monscript.js au lieu de app.js)
   '/manifest.json',
-  '/goat.png'
+  '/goat.png',       // Ton icône de manifest
+  '/goat.jpg',       // Image par défaut de la chèvre
+  '/goat_meh.jpg',   // Image de la chèvre qui crie
+  '/meeh.mp3'        // Son de la chèvre
 ];
 
 // 1. Installation : mise en cache des fichiers statiques
@@ -53,13 +56,12 @@ self.addEventListener('fetch', (event) => {
       // Sinon, essaie de la récupérer sur le réseau
       return fetch(event.request)
         .then((networkResponse) => {
-          // Optionnel : tu peux mettre en cache dynamiquement les nouvelles pages visitées
           return networkResponse;
         })
         .catch(() => {
-          // Repli en cas de panne réseau (ex: page hors-ligne personnalisée)
+          // Repli en cas de panne réseau
           if (event.request.mode === 'navigate') {
-            return caches.match('/index.html'); // ou une page offline.html dédiée
+            return caches.match('/index.html');
           }
         });
     })
