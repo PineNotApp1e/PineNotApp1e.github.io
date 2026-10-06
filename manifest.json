@@ -10,9 +10,9 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/goat.jpg",
-      "sizes": "400x400",
-      "type": "image/jpeg",
+      "src": "/goat_icon.png",
+      "sizes": "512x512", 
+      "type": "image/png",
       "purpose": "any"
     }
   ]
