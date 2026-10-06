@@ -11,15 +11,9 @@
   "icons": [
     {
       "src": "/goat.jpg",
-      "sizes": "192x192",
+      "sizes": "400x400",
       "type": "image/jpeg",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/goat.jpg",
-      "sizes": "512x512",
-      "type": "image/jpeg",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }
