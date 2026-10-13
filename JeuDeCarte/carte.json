@@ -1,0 +1,215 @@
+{
+    "carte": [
+        {
+            "image": "img/pikachu.jpg",
+            "name": "Pikachu",
+            "power": 150,
+            "scary": 40,
+            "speed": 100,
+            "defense": 50,
+            "bravery": 75
+        },
+        {
+            "image": "img/train.jpg",
+            "name": "Train",
+            "power": 133,
+            "scary": 15,
+            "speed": 133,
+            "defense": 133,
+            "bravery": 1
+        },
+        {
+            "image": "img/Burger.jpg",
+            "name": "Burger",
+            "power": 135,
+            "scary": 150,
+            "speed": 0,
+            "defense": 65,
+            "bravery": 65
+        },
+        {
+            "image": "img/Chinois.jpg",
+            "name": "Chinois",
+            "power": 116,
+            "scary": 15,
+            "speed": 117,
+            "defense": 117,
+            "bravery": 50
+        },
+        {
+            "image": "img/Farmer.jpg",
+            "name": "Farmer",
+            "power": 65,
+            "scary": 300,
+            "speed": 0,
+            "defense": 0,
+            "bravery": 50
+        },
+        {
+            "image": "img/Fish.jpg",
+            "name": "Fish",
+            "power": 100,
+            "scary": 30,
+            "speed": 180,
+            "defense": 5,
+            "bravery": 100
+        },
+        {
+            "image": "img/Samurai.jpg",
+            "name": "Samurai",
+            "power": 100,
+            "scary": 40,
+            "speed": 80,
+            "defense": 100,
+            "bravery": 95
+        },
+        {
+            "image": "img/Dieu.jpg",
+            "name": "Dieu",
+            "power": 500,
+            "scary": 500,
+            "speed": 500,
+            "defense": 500,
+            "bravery": 500
+        },
+        {
+            "image": "img/Freethunder.jpg",
+            "name": "Thunderfree",
+            "power": 100,
+            "scary": 5,
+            "speed": 100,
+            "defense": 20,
+            "bravery": 190
+        },
+        {
+            "image": "img/Demon.jpg",
+            "name": "Demon",
+            "power": 150,
+            "scary": 100,
+            "speed": 100,
+            "defense": 20,
+            "bravery": 45
+        },
+        {
+            "image": "img/Assassin.jpg",
+            "name": "Assassin",
+            "power": 150,
+            "scary": 10,
+            "speed": 200,
+            "defense": 50,
+            "bravery": 5
+        },
+        {
+            "image": "img/General.jpg",
+            "name": "General",
+            "power": 50,
+            "scary": 100,
+            "speed": 15,
+            "defense": 200,
+            "bravery": 50
+        },
+        {
+            "image": "img/AnanasZombie.jpg",
+            "name": "AnanasZombie",
+            "power": 350,
+            "scary": 5,
+            "speed": 50,
+            "defense": 5,
+            "bravery": 5
+        },
+        {
+            "image": "img/TrioLegendaire.jpg",
+            "name": "TrioLegendaire",
+            "power": 35,
+            "scary": 25,
+            "speed": 5,
+            "defense": 170,
+            "bravery": 180
+        },
+        {
+            "image": "img/RoiDemon.jpg",
+            "name": "RoiDemon",
+            "power": 120,
+            "scary": 120,
+            "speed": 110,
+            "defense": 50,
+            "bravery": 15
+        },
+        {
+            "image": "img/SbireDemon.jpg",
+            "name": "SbireDemon",
+            "power": 15,
+            "scary": 0,
+            "speed": 0,
+            "defense": 200,
+            "bravery": 200
+        },
+        {
+            "image": "img/Tueur.jpg",
+            "name": "Tueur",
+            "power": 85,
+            "scary": 80,
+            "speed": 85,
+            "defense": 85,
+            "bravery": 80
+        },
+        {
+            "image": "img/Magicien.jpg",
+            "name": "Magicien",
+            "power": 35,
+            "scary": 30,
+            "speed": 30,
+            "defense": 150,
+            "bravery": 170
+        },
+        {
+            "image": "img/Gambler.jpg",
+            "name": "Gambler"
+        },
+        {
+            "image": "img/Guerrier.jpg",
+            "name": "Guerrier",
+            "power": 415,
+            "scary": 0,
+            "speed": 0,
+            "defense": 0,
+            "bravery": 0
+        },
+        {
+            "image": "img/monstruosite.jpg",
+            "name": "monstruosité",
+            "power": 0,
+            "scary": 415,
+            "speed": 0,
+            "defense": 0,
+            "bravery": 0
+        },
+        {
+            "image": "img/BalleDemon.jpg",
+            "name": "BalleDuDemon",
+            "power": 0,
+            "scary": 0,
+            "speed": 415,
+            "defense": 0,
+            "bravery": 0
+        },
+        {
+            "image": "img/Vampire.jpg",
+            "name": "Vampire",
+            "power": 0,
+            "scary": 0,
+            "speed": 0,
+            "defense": 415,
+            "bravery": 0
+        },
+        {
+            "image": "img/Chateau.jpg",
+            "name": "Chateau",
+            "power": 0,
+            "scary": 0,
+            "speed": 0,
+            "defense": 0,
+            "bravery": 415
+        }
+    ]
+}
